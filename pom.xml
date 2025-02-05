@@ -66,6 +66,17 @@
 		</dependency>
 	</dependencies>
 
+	<distributionManagement>
+		    <repository>
+		        <id>Library-Project</id>
+		        <url>https://github.com/roy2002/Library-Project/repository/maven-releases/</url>
+		    </repository>
+		    <snapshotRepository>
+		        <id>my-snapshots</id>
+		        <url>https://github.com/roy2002/Library-Project/repository/maven-snapshots/</url>
+		    </snapshotRepository>
+	</distributionManagement>
+
 	<build>
 		    <plugins>
 		        <plugin>
