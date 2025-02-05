@@ -72,8 +72,8 @@
 		        <url>https://github.com/roy2002/Library-Project/repository/maven-releases/</url>
 		    </repository>
 		    <snapshotRepository>
-		        <id>my-snapshots</id>
-		        <url>https://github.com/roy2002/Library-Project/repository/maven-snapshots/</url>
+		        <id>github</id>
+        		<url>https://maven.pkg.github.com/roy2002/Library-Project</url>
 		    </snapshotRepository>
 	</distributionManagement>
 
